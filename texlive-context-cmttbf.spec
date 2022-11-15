@@ -28,18 +28,8 @@ mkdir -p %{buildroot}%{_texmfdistdir}
 cp -a * %{buildroot}%{_texmfdistdir}
 
 %files
-%{_texmfdistdir}/tex
-%{_texmfdistdir}/tex/context
-%{_texmfdistdir}/tex/context/third
 %{_texmfdistdir}/tex/context/third/cmttbf
-%{_texmfdistdir}/tex/context/third/cmttbf/t-cmttbf.tex
-%{_texmfdistdir}/doc
-%doc %{_texmfdistdir}/doc/context
-%doc %{_texmfdistdir}/doc/context/third
 %doc %{_texmfdistdir}/doc/context/third/cmttbf
-%doc %{_texmfdistdir}/doc/context/third/cmttbf/cmttbf-doc.pdf
-%doc %{_texmfdistdir}/doc/context/third/cmttbf/cmttbf-demo.pdf
-%doc %{_texmfdistdir}/doc/context/third/cmttbf/VERSION
 
 %post -p %{_sbindir}/texlive.post
 
