@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	Use Computer Modern Typewriter bold font in ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-cmttbf
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/context-cmttbf
 License:	gpl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-cmttbf.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-cmttbf.doc.r%{version}.tar.xz
